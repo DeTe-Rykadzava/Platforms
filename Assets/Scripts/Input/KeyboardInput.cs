@@ -10,7 +10,7 @@ namespace Input
             LeftRight = UnityEngine.Input.GetAxisRaw("Horizontal");
             ForwardBack = UnityEngine.Input.GetAxisRaw("Vertical");
             Jump = UnityEngine.Input.GetAxis("Jump") != 0;
-            Sprint = Convert.ToSingle(UnityEngine.Input.GetKeyDown(KeyCode.LeftShift));
+            Sprint = Convert.ToSingle(UnityEngine.Input.GetKey(KeyCode.LeftShift));
         }
     }
 }
